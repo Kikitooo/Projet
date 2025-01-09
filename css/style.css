@@ -1,6 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body{
-    background-color:skyblue;
-    background-attachment: fixed;
-    background-size: cover;
-
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    background-color: aqua;
+    width: 100%;
+}
+nav{
+    background-color: brown;
+    width: 30%;
+}
+nav a{
+    display: block;
+    width: 80%;
+    line-height: 2em;
+    text-decoration: none;
+    text-align: center;margin: 4% auto;
+    background-color: white;
+    color: blueviolet;
+    transition: 2ms;
+}
+main{
+    background-color: blueviolet;
+    width: 70%;
+    columns: 5;
+}
+footer{
+    background-color: chartreuse;
+    width: 100%;
 }
